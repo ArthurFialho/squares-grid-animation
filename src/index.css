@@ -1,0 +1,25 @@
+/* Reset básico e configuração para tela inteira */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* Remove barras de rolagem */
+  background-color: #e2e2e2;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.squares-canvas {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+}
