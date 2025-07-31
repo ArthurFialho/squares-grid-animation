@@ -9,7 +9,7 @@ html, body {
   width: 100%;
   height: 100%;
   overflow: hidden; /* Remove barras de rolagem */
-  background-color: #e2e2e2;
+  background-color: #000;
 }
 
 #root {
